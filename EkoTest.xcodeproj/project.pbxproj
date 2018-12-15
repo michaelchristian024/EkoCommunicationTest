@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1946D73C21C4E603001FFA16 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D73B21C4E603001FFA16 /* UserModel.m */; };
+		1946D74021C4E8FA001FFA16 /* NSDictionary+SafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D73F21C4E8FA001FFA16 /* NSDictionary+SafeObject.m */; };
+		1946D74321C4E9B4001FFA16 /* UserResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D74221C4E9B4001FFA16 /* UserResponseModel.m */; };
+		1946D74721C4EEC7001FFA16 /* UserInfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D74521C4EEC7001FFA16 /* UserInfoCollectionViewCell.m */; };
+		1946D74821C4EEC7001FFA16 /* UserInfoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1946D74621C4EEC7001FFA16 /* UserInfoCollectionViewCell.xib */; };
+		1946D74C21C4F73D001FFA16 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D74B21C4F73D001FFA16 /* MainViewModel.m */; };
+		1946D75021C4FB9B001FFA16 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D74F21C4FB9B001FFA16 /* BaseViewController.m */; };
+		1946D75521C4FFDA001FFA16 /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D75321C4FFDA001FFA16 /* UserDetailViewController.m */; };
+		1946D75621C4FFDA001FFA16 /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1946D75421C4FFDA001FFA16 /* UserDetailViewController.xib */; };
+		1946D75921C4FFEA001FFA16 /* UserDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D75821C4FFEA001FFA16 /* UserDetailViewModel.m */; };
+		1946D75C21C502D9001FFA16 /* UINavigationController+Eko.m in Sources */ = {isa = PBXBuildFile; fileRef = 1946D75B21C502D9001FFA16 /* UINavigationController+Eko.m */; };
+		1946D75E21C50C8F001FFA16 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1946D75D21C50C8F001FFA16 /* WebKit.framework */; };
 		19B46FCE21C4BE0A008FEA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */; };
-		19B46FD121C4BE0A008FEA55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FD021C4BE0A008FEA55 /* ViewController.m */; };
-		19B46FD421C4BE0A008FEA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD221C4BE0A008FEA55 /* Main.storyboard */; };
 		19B46FD621C4BE0B008FEA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD521C4BE0B008FEA55 /* Assets.xcassets */; };
 		19B46FD921C4BE0B008FEA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */; };
 		19B46FDC21C4BE0B008FEA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FDB21C4BE0B008FEA55 /* main.m */; };
 		19B46FE621C4BE0B008FEA55 /* EkoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FE521C4BE0B008FEA55 /* EkoTestTests.m */; };
 		19B46FF121C4BE0B008FEA55 /* EkoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FF021C4BE0B008FEA55 /* EkoTestUITests.m */; };
+		19B4700121C4BFA3008FEA55 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FFF21C4BFA3008FEA55 /* MainViewController.m */; };
+		19B4700221C4BFA3008FEA55 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B4700021C4BFA3008FEA55 /* MainViewController.xib */; };
+		9936174E69BEAB0AB4C174CA /* Pods_EkoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3AC6E8A7FF73B291FB5BA4 /* Pods_EkoTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1946D73A21C4E603001FFA16 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		1946D73B21C4E603001FFA16 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		1946D73E21C4E7CF001FFA16 /* NSDictionary+SafeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeObject.h"; sourceTree = "<group>"; };
+		1946D73F21C4E8FA001FFA16 /* NSDictionary+SafeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeObject.m"; sourceTree = "<group>"; };
+		1946D74121C4E9B4001FFA16 /* UserResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserResponseModel.h; sourceTree = "<group>"; };
+		1946D74221C4E9B4001FFA16 /* UserResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserResponseModel.m; sourceTree = "<group>"; };
+		1946D74421C4EEC7001FFA16 /* UserInfoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoCollectionViewCell.h; sourceTree = "<group>"; };
+		1946D74521C4EEC7001FFA16 /* UserInfoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoCollectionViewCell.m; sourceTree = "<group>"; };
+		1946D74621C4EEC7001FFA16 /* UserInfoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoCollectionViewCell.xib; sourceTree = "<group>"; };
+		1946D74A21C4F73D001FFA16 /* MainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
+		1946D74B21C4F73D001FFA16 /* MainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewModel.m; sourceTree = "<group>"; };
+		1946D74E21C4FB9B001FFA16 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1946D74F21C4FB9B001FFA16 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1946D75221C4FFDA001FFA16 /* UserDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailViewController.h; sourceTree = "<group>"; };
+		1946D75321C4FFDA001FFA16 /* UserDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewController.m; sourceTree = "<group>"; };
+		1946D75421C4FFDA001FFA16 /* UserDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailViewController.xib; sourceTree = "<group>"; };
+		1946D75721C4FFEA001FFA16 /* UserDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailViewModel.h; sourceTree = "<group>"; };
+		1946D75821C4FFEA001FFA16 /* UserDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewModel.m; sourceTree = "<group>"; };
+		1946D75A21C502BE001FFA16 /* UINavigationController+Eko.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Eko.h"; sourceTree = "<group>"; };
+		1946D75B21C502D9001FFA16 /* UINavigationController+Eko.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Eko.m"; sourceTree = "<group>"; };
+		1946D75D21C50C8F001FFA16 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		19B46FC921C4BE0A008FEA55 /* EkoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B46FCC21C4BE0A008FEA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19B46FCF21C4BE0A008FEA55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19B46FD021C4BE0A008FEA55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		19B46FD321C4BE0A008FEA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19B46FD521C4BE0B008FEA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B46FD821C4BE0B008FEA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19B46FDA21C4BE0B008FEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +82,14 @@
 		19B46FEC21C4BE0B008FEA55 /* EkoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B46FF021C4BE0B008FEA55 /* EkoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkoTestUITests.m; sourceTree = "<group>"; };
 		19B46FF221C4BE0B008FEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B46FFE21C4BFA3008FEA55 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		19B46FFF21C4BFA3008FEA55 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		19B4700021C4BFA3008FEA55 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		57882C09C59391E31DBAF708 /* Pods-EkoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EkoTest/Pods-EkoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		819BFA6D6267DCF2B7DA661E /* libPods-EkoTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EkoTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3AC6E8A7FF73B291FB5BA4 /* Pods_EkoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5CA4DE4C7A8698C9BF441F /* Pods-EkoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EkoTest/Pods-EkoTest.release.xcconfig"; sourceTree = "<group>"; };
+		B841CD85DFF60732F85F2891 /* libPods-EkoTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EkoTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1946D75E21C50C8F001FFA16 /* WebKit.framework in Frameworks */,
+				9936174E69BEAB0AB4C174CA /* Pods_EkoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +119,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049C4A29A40E063321C0B04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1946D75D21C50C8F001FFA16 /* WebKit.framework */,
+				819BFA6D6267DCF2B7DA661E /* libPods-EkoTestTests.a */,
+				B841CD85DFF60732F85F2891 /* libPods-EkoTestUITests.a */,
+				9B3AC6E8A7FF73B291FB5BA4 /* Pods_EkoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1946D73921C4E5E4001FFA16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1946D73A21C4E603001FFA16 /* UserModel.h */,
+				1946D73B21C4E603001FFA16 /* UserModel.m */,
+				1946D74121C4E9B4001FFA16 /* UserResponseModel.h */,
+				1946D74221C4E9B4001FFA16 /* UserResponseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1946D73D21C4E782001FFA16 /* Extended */ = {
+			isa = PBXGroup;
+			children = (
+				1946D73E21C4E7CF001FFA16 /* NSDictionary+SafeObject.h */,
+				1946D73F21C4E8FA001FFA16 /* NSDictionary+SafeObject.m */,
+				1946D75A21C502BE001FFA16 /* UINavigationController+Eko.h */,
+				1946D75B21C502D9001FFA16 /* UINavigationController+Eko.m */,
+			);
+			path = Extended;
+			sourceTree = "<group>";
+		};
+		1946D74921C4F6BF001FFA16 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				1946D74421C4EEC7001FFA16 /* UserInfoCollectionViewCell.h */,
+				1946D74521C4EEC7001FFA16 /* UserInfoCollectionViewCell.m */,
+				1946D74621C4EEC7001FFA16 /* UserInfoCollectionViewCell.xib */,
+				19B46FFE21C4BFA3008FEA55 /* MainViewController.h */,
+				19B46FFF21C4BFA3008FEA55 /* MainViewController.m */,
+				19B4700021C4BFA3008FEA55 /* MainViewController.xib */,
+				1946D74A21C4F73D001FFA16 /* MainViewModel.h */,
+				1946D74B21C4F73D001FFA16 /* MainViewModel.m */,
+			);
+			path = "Main Page";
+			sourceTree = "<group>";
+		};
+		1946D74D21C4FAA4001FFA16 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1946D74E21C4FB9B001FFA16 /* BaseViewController.h */,
+				1946D74F21C4FB9B001FFA16 /* BaseViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1946D75121C4FF78001FFA16 /* Detail Page */ = {
+			isa = PBXGroup;
+			children = (
+				1946D75221C4FFDA001FFA16 /* UserDetailViewController.h */,
+				1946D75321C4FFDA001FFA16 /* UserDetailViewController.m */,
+				1946D75421C4FFDA001FFA16 /* UserDetailViewController.xib */,
+				1946D75721C4FFEA001FFA16 /* UserDetailViewModel.h */,
+				1946D75821C4FFEA001FFA16 /* UserDetailViewModel.m */,
+			);
+			path = "Detail Page";
+			sourceTree = "<group>";
+		};
 		19B46FC021C4BE0A008FEA55 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +195,8 @@
 				19B46FE421C4BE0B008FEA55 /* EkoTestTests */,
 				19B46FEF21C4BE0B008FEA55 /* EkoTestUITests */,
 				19B46FCA21C4BE0A008FEA55 /* Products */,
+				ED3ACE3207ADECFE2FA4E797 /* Pods */,
+				049C4A29A40E063321C0B04D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +213,13 @@
 		19B46FCB21C4BE0A008FEA55 /* EkoTest */ = {
 			isa = PBXGroup;
 			children = (
+				1946D75121C4FF78001FFA16 /* Detail Page */,
+				1946D74D21C4FAA4001FFA16 /* Common */,
+				1946D74921C4F6BF001FFA16 /* Main Page */,
+				1946D73D21C4E782001FFA16 /* Extended */,
+				1946D73921C4E5E4001FFA16 /* Model */,
 				19B46FCC21C4BE0A008FEA55 /* AppDelegate.h */,
 				19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */,
-				19B46FCF21C4BE0A008FEA55 /* ViewController.h */,
-				19B46FD021C4BE0A008FEA55 /* ViewController.m */,
-				19B46FD221C4BE0A008FEA55 /* Main.storyboard */,
 				19B46FD521C4BE0B008FEA55 /* Assets.xcassets */,
 				19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */,
 				19B46FDA21C4BE0B008FEA55 /* Info.plist */,
@@ -132,6 +246,15 @@
 			path = EkoTestUITests;
 			sourceTree = "<group>";
 		};
+		ED3ACE3207ADECFE2FA4E797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57882C09C59391E31DBAF708 /* Pods-EkoTest.debug.xcconfig */,
+				AD5CA4DE4C7A8698C9BF441F /* Pods-EkoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19B46FF521C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTest" */;
 			buildPhases = (
+				7F91B4DA90F435C89135DEAA /* [CP] Check Pods Manifest.lock */,
 				19B46FC521C4BE0A008FEA55 /* Sources */,
 				19B46FC621C4BE0A008FEA55 /* Frameworks */,
 				19B46FC721C4BE0A008FEA55 /* Resources */,
+				1C05797B328BEC71BCCC27AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,9 +360,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1946D74821C4EEC7001FFA16 /* UserInfoCollectionViewCell.xib in Resources */,
+				1946D75621C4FFDA001FFA16 /* UserDetailViewController.xib in Resources */,
 				19B46FD921C4BE0B008FEA55 /* LaunchScreen.storyboard in Resources */,
+				19B4700221C4BFA3008FEA55 /* MainViewController.xib in Resources */,
 				19B46FD621C4BE0B008FEA55 /* Assets.xcassets in Resources */,
-				19B46FD421C4BE0A008FEA55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +384,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C05797B328BEC71BCCC27AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EkoTest/Pods-EkoTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EkoTest/Pods-EkoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F91B4DA90F435C89135DEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19B46FC521C4BE0A008FEA55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B46FD121C4BE0A008FEA55 /* ViewController.m in Sources */,
+				1946D74C21C4F73D001FFA16 /* MainViewModel.m in Sources */,
+				1946D75021C4FB9B001FFA16 /* BaseViewController.m in Sources */,
+				1946D75921C4FFEA001FFA16 /* UserDetailViewModel.m in Sources */,
+				1946D74721C4EEC7001FFA16 /* UserInfoCollectionViewCell.m in Sources */,
+				1946D73C21C4E603001FFA16 /* UserModel.m in Sources */,
 				19B46FDC21C4BE0B008FEA55 /* main.m in Sources */,
+				1946D74321C4E9B4001FFA16 /* UserResponseModel.m in Sources */,
+				19B4700121C4BFA3008FEA55 /* MainViewController.m in Sources */,
+				1946D74021C4E8FA001FFA16 /* NSDictionary+SafeObject.m in Sources */,
+				1946D75521C4FFDA001FFA16 /* UserDetailViewController.m in Sources */,
 				19B46FCE21C4BE0A008FEA55 /* AppDelegate.m in Sources */,
+				1946D75C21C502D9001FFA16 /* UINavigationController+Eko.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19B46FD221C4BE0A008FEA55 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19B46FD321C4BE0A008FEA55 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,10 +602,13 @@
 		};
 		19B46FF621C4BE0C008FEA55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57882C09C59391E31DBAF708 /* Pods-EkoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTTK4XCUA8;
 				INFOPLIST_FILE = EkoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +621,13 @@
 		};
 		19B46FF721C4BE0C008FEA55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5CA4DE4C7A8698C9BF441F /* Pods-EkoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTTK4XCUA8;
 				INFOPLIST_FILE = EkoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
