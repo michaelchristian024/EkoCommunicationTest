@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B46FCE21C4BE0A008FEA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */; };
+		19B46FD121C4BE0A008FEA55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FD021C4BE0A008FEA55 /* ViewController.m */; };
+		19B46FD421C4BE0A008FEA55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD221C4BE0A008FEA55 /* Main.storyboard */; };
+		19B46FD621C4BE0B008FEA55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD521C4BE0B008FEA55 /* Assets.xcassets */; };
+		19B46FD921C4BE0B008FEA55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */; };
+		19B46FDC21C4BE0B008FEA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FDB21C4BE0B008FEA55 /* main.m */; };
+		19B46FE621C4BE0B008FEA55 /* EkoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FE521C4BE0B008FEA55 /* EkoTestTests.m */; };
+		19B46FF121C4BE0B008FEA55 /* EkoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B46FF021C4BE0B008FEA55 /* EkoTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B46FE221C4BE0B008FEA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B46FC121C4BE0A008FEA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B46FC821C4BE0A008FEA55;
+			remoteInfo = EkoTest;
+		};
+		19B46FED21C4BE0B008FEA55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B46FC121C4BE0A008FEA55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B46FC821C4BE0A008FEA55;
+			remoteInfo = EkoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B46FC921C4BE0A008FEA55 /* EkoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B46FCC21C4BE0A008FEA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19B46FCF21C4BE0A008FEA55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19B46FD021C4BE0A008FEA55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19B46FD321C4BE0A008FEA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B46FD521C4BE0B008FEA55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B46FD821C4BE0B008FEA55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B46FDA21C4BE0B008FEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B46FDB21C4BE0B008FEA55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B46FE121C4BE0B008FEA55 /* EkoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B46FE521C4BE0B008FEA55 /* EkoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkoTestTests.m; sourceTree = "<group>"; };
+		19B46FE721C4BE0B008FEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B46FEC21C4BE0B008FEA55 /* EkoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B46FF021C4BE0B008FEA55 /* EkoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkoTestUITests.m; sourceTree = "<group>"; };
+		19B46FF221C4BE0B008FEA55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B46FC621C4BE0A008FEA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FDE21C4BE0B008FEA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FE921C4BE0B008FEA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B46FC021C4BE0A008FEA55 = {
+			isa = PBXGroup;
+			children = (
+				19B46FCB21C4BE0A008FEA55 /* EkoTest */,
+				19B46FE421C4BE0B008FEA55 /* EkoTestTests */,
+				19B46FEF21C4BE0B008FEA55 /* EkoTestUITests */,
+				19B46FCA21C4BE0A008FEA55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B46FCA21C4BE0A008FEA55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B46FC921C4BE0A008FEA55 /* EkoTest.app */,
+				19B46FE121C4BE0B008FEA55 /* EkoTestTests.xctest */,
+				19B46FEC21C4BE0B008FEA55 /* EkoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B46FCB21C4BE0A008FEA55 /* EkoTest */ = {
+			isa = PBXGroup;
+			children = (
+				19B46FCC21C4BE0A008FEA55 /* AppDelegate.h */,
+				19B46FCD21C4BE0A008FEA55 /* AppDelegate.m */,
+				19B46FCF21C4BE0A008FEA55 /* ViewController.h */,
+				19B46FD021C4BE0A008FEA55 /* ViewController.m */,
+				19B46FD221C4BE0A008FEA55 /* Main.storyboard */,
+				19B46FD521C4BE0B008FEA55 /* Assets.xcassets */,
+				19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */,
+				19B46FDA21C4BE0B008FEA55 /* Info.plist */,
+				19B46FDB21C4BE0B008FEA55 /* main.m */,
+			);
+			path = EkoTest;
+			sourceTree = "<group>";
+		};
+		19B46FE421C4BE0B008FEA55 /* EkoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B46FE521C4BE0B008FEA55 /* EkoTestTests.m */,
+				19B46FE721C4BE0B008FEA55 /* Info.plist */,
+			);
+			path = EkoTestTests;
+			sourceTree = "<group>";
+		};
+		19B46FEF21C4BE0B008FEA55 /* EkoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B46FF021C4BE0B008FEA55 /* EkoTestUITests.m */,
+				19B46FF221C4BE0B008FEA55 /* Info.plist */,
+			);
+			path = EkoTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B46FC821C4BE0A008FEA55 /* EkoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B46FF521C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTest" */;
+			buildPhases = (
+				19B46FC521C4BE0A008FEA55 /* Sources */,
+				19B46FC621C4BE0A008FEA55 /* Frameworks */,
+				19B46FC721C4BE0A008FEA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkoTest;
+			productName = EkoTest;
+			productReference = 19B46FC921C4BE0A008FEA55 /* EkoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B46FE021C4BE0B008FEA55 /* EkoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B46FF821C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTestTests" */;
+			buildPhases = (
+				19B46FDD21C4BE0B008FEA55 /* Sources */,
+				19B46FDE21C4BE0B008FEA55 /* Frameworks */,
+				19B46FDF21C4BE0B008FEA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B46FE321C4BE0B008FEA55 /* PBXTargetDependency */,
+			);
+			name = EkoTestTests;
+			productName = EkoTestTests;
+			productReference = 19B46FE121C4BE0B008FEA55 /* EkoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B46FEB21C4BE0B008FEA55 /* EkoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B46FFB21C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTestUITests" */;
+			buildPhases = (
+				19B46FE821C4BE0B008FEA55 /* Sources */,
+				19B46FE921C4BE0B008FEA55 /* Frameworks */,
+				19B46FEA21C4BE0B008FEA55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B46FEE21C4BE0B008FEA55 /* PBXTargetDependency */,
+			);
+			name = EkoTestUITests;
+			productName = EkoTestUITests;
+			productReference = 19B46FEC21C4BE0B008FEA55 /* EkoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B46FC121C4BE0A008FEA55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michael Christian";
+				TargetAttributes = {
+					19B46FC821C4BE0A008FEA55 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					19B46FE021C4BE0B008FEA55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19B46FC821C4BE0A008FEA55;
+					};
+					19B46FEB21C4BE0B008FEA55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 19B46FC821C4BE0A008FEA55;
+					};
+				};
+			};
+			buildConfigurationList = 19B46FC421C4BE0A008FEA55 /* Build configuration list for PBXProject "EkoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B46FC021C4BE0A008FEA55;
+			productRefGroup = 19B46FCA21C4BE0A008FEA55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B46FC821C4BE0A008FEA55 /* EkoTest */,
+				19B46FE021C4BE0B008FEA55 /* EkoTestTests */,
+				19B46FEB21C4BE0B008FEA55 /* EkoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B46FC721C4BE0A008FEA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B46FD921C4BE0B008FEA55 /* LaunchScreen.storyboard in Resources */,
+				19B46FD621C4BE0B008FEA55 /* Assets.xcassets in Resources */,
+				19B46FD421C4BE0A008FEA55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FDF21C4BE0B008FEA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FEA21C4BE0B008FEA55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B46FC521C4BE0A008FEA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B46FD121C4BE0A008FEA55 /* ViewController.m in Sources */,
+				19B46FDC21C4BE0B008FEA55 /* main.m in Sources */,
+				19B46FCE21C4BE0A008FEA55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FDD21C4BE0B008FEA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B46FE621C4BE0B008FEA55 /* EkoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B46FE821C4BE0B008FEA55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B46FF121C4BE0B008FEA55 /* EkoTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B46FE321C4BE0B008FEA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B46FC821C4BE0A008FEA55 /* EkoTest */;
+			targetProxy = 19B46FE221C4BE0B008FEA55 /* PBXContainerItemProxy */;
+		};
+		19B46FEE21C4BE0B008FEA55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B46FC821C4BE0A008FEA55 /* EkoTest */;
+			targetProxy = 19B46FED21C4BE0B008FEA55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B46FD221C4BE0A008FEA55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B46FD321C4BE0A008FEA55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B46FD721C4BE0B008FEA55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B46FD821C4BE0B008FEA55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B46FF321C4BE0B008FEA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19B46FF421C4BE0B008FEA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B46FF621C4BE0C008FEA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B46FF721C4BE0C008FEA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19B46FF921C4BE0C008FEA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkoTest.app/EkoTest";
+			};
+			name = Debug;
+		};
+		19B46FFA21C4BE0C008FEA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkoTest.app/EkoTest";
+			};
+			name = Release;
+		};
+		19B46FFC21C4BE0C008FEA55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkoTest;
+			};
+			name = Debug;
+		};
+		19B46FFD21C4BE0C008FEA55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EkoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hello.EkoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B46FC421C4BE0A008FEA55 /* Build configuration list for PBXProject "EkoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B46FF321C4BE0B008FEA55 /* Debug */,
+				19B46FF421C4BE0B008FEA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B46FF521C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B46FF621C4BE0C008FEA55 /* Debug */,
+				19B46FF721C4BE0C008FEA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B46FF821C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B46FF921C4BE0C008FEA55 /* Debug */,
+				19B46FFA21C4BE0C008FEA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B46FFB21C4BE0C008FEA55 /* Build configuration list for PBXNativeTarget "EkoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B46FFC21C4BE0C008FEA55 /* Debug */,
+				19B46FFD21C4BE0C008FEA55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B46FC121C4BE0A008FEA55 /* Project object */;
+}
